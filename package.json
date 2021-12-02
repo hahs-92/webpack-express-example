@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
+    "start": "node dist/index.js",
+    "dev": "webpack --mode development && node dist/index.js",
+    "built": "webpack --mode production"
   },
   "keywords": [],
   "author": "Hugo Alexander Hernandez Serrano <Alexandre_2420@outlook.com>",
