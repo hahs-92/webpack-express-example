@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "start:dev": "webpack --watch --mode development",
-    "dev": "webpack --mode development && node dist/index.js",
+    "dev-without-nodemon": "webpack --mode development && node dist/index.js",
+    "dev": "webpack --watch",
     "build": "webpack --mode production"
   },
   "keywords": [],

@@ -56,7 +56,7 @@ const PORT = 5005
 
 //routes
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hi there! Typescript¡')
+    res.send('Hi there! Typescript')
 })
 
 app.get('/api/v1', (req: Request, res: Response) => {
